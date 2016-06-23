@@ -30,6 +30,8 @@ private
       end
     when ::HtmlAttachment
       PublishingApiPresenters::HtmlAttachment
+    when ::Contact
+      PublishingApiPresenters::Contact
     else
       PublishingApiPresenters::Placeholder
     end
