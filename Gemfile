@@ -33,7 +33,7 @@ gem 'chronic'
 gem 'jbuilder'
 gem 'rack_strip_client_ip', '0.0.1'
 gem 'invalid_utf8_rejector', '~> 0.0.1'
-gem 'govuk_sidekiq', github: "alphagov/govuk_sidekiq", branch: "sidekiq-testing"
+gem 'govuk_sidekiq', '0.0.4'
 gem 'redis-namespace'
 gem 'raindrops', '0.15.0'
 gem 'airbrake', '4.1.0'
